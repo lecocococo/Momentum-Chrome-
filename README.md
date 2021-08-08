@@ -10,3 +10,29 @@ Building Main function of Momentum(Google Chrome Extension)
 
 사용자의 이름을 받아오도록 한 가장 처음 보여지는 화면입니다.
 
+중앙 아래의 명언과 배경화면은 새로고침시 랜덤하게 보여지도록 하였습니다.
+
+왼쪽 상단의 지역이름, 날씨, 온도는 openWeatherMap의 open api를 이용하여 정보를 받아와 보여지도록하였습니다.
+
+
+2)
+![스크린샷(8)](https://user-images.githubusercontent.com/62368629/128623986-cc8729b5-6b3b-4b64-b0ea-13580ea87fbb.png)
+
+사용자를 입력하고 난 이후 오늘 메인으로 해야할 일에 대한 질문과 입력창이 뜹니다.
+
+
+
+3)
+![스크린샷(5)](https://user-images.githubusercontent.com/62368629/128623997-69d50be7-326e-4949-9c46-79a198fa8ad5.png)
+
+메인으로 해야할일을 입력하고나면 입력창과 질문이 사리지고 메인으로 할 일을 보여줍니다.
+
+
+
+4)
+![스크린샷(6)](https://user-images.githubusercontent.com/62368629/128624009-88e87438-a766-430b-9733-330b7ef1e464.png)
+
+ToDo를 클릭하면 해야할일을 입력할 수 있는 창이 뜨게됩니다.
+
+
+5)
