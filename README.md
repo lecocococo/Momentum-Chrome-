@@ -5,4 +5,8 @@ Building Main function of Momentum(Google Chrome Extension)
 
 입력받은 데이터 저장은 브라우저의 Local Storage를 이용하였습니다.
 
-![스크린샷(1)](https://user-images.githubusercontent.com/62368629/128622851-5321d0d8-ec2b-4485-b2f7-50ce98ff0fd0.png)
+1)
+![스크린샷(1)](https://user-images.githubusercontent.com/62368629/128623667-2de35aee-3f37-4624-bdb9-a5472f538c89.png)
+
+사용자의 이름을 받아오도록 한 가장 처음 보여지는 화면입니다.
+
