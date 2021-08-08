@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--아래 줄처럼 적게되면 작은 디바이스에서도 media query 잘 작동함 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+
+    <title>Momentum</title>
+</head>
+
+<body>
+    <!--form을 사용해야만 input의 유효성 검사가 가능-->
+    <!--form 내부의 버튼을 누르면 form이 제출(submit)됨-->
+    <!--form의 기본동작은 submit-->
+    <form id="login_form" class="hidden">
+        <!--js에서보다는 html에서 가능하면 html에서 해주자-->
+        <input id="login-name" required maxlength="30" type="text" placeholder="What is your name?" />
+        <input id="submit-name" type="submit" value="Log In" />
+    </form>
+    <!--링크의 기본동작은 다른 사이트 연결-->
+    <!-- <a href="https://nomadcoders.co">Go To Courses</a> -->
+    <h2 id="clock">00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <!-- submit을 위해선 form을 사용해야됨  -->
+    <div id="ask-Input-Mainfocus" class="hidden">
+        <h2 id="ask-focus">What is your main focus today?</h2>
+        <form id="main-focus">
+            <input type="text" placeholder="" />
+        </form>
+    </div>
+    <!-- <form id="todo-form">
+        <input required type="text" placeholder="Write a To DO ans Press Enter" />
+    </form> -->
+    <button id="todo-button" class="hidden">ToDo</button>
+    <div id="todo-box" class="hidden">
+        <form id="todo-form">
+            <input required type="text" placeholder="Write a ToDO ans Press Enter" />
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/focus.js"></script>
+</body>
+
+</html>
