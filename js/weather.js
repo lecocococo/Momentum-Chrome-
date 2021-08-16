@@ -1,7 +1,3 @@
-//openweathermap.org의 API를 활용
-//qutyr99@gmail.com     1q2w3e4r!!
-
-
 const API_KEY = "32dde748b442c03cc332c11100103668";
 
 //자바스크립트가 호출하면 위치에 대한 정보를 넘겨준다.
